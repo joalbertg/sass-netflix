@@ -53,15 +53,21 @@ docker-compose run app yarn add gulp gulp-cli gulp-sass gulp-autoprefixer --dev
 │   └── app.css
 ├── docker-compose.yml
 ├── gulpfile.js
+├── img
+│   ├── bg.jpg
+│   └── logo.svg
 ├── index.html
 ├── js
 │   └── scripts.js
 ├── package.json
 ├── scss
+│   ├── _custom.scss
+│   ├── _mixins.scss
+│   ├── _variables.scss
 │   └── app.scss
 └── yarn.lock
 
-3 directories, 10 files
+4 directories, 15 files
 ```
 
 #### Gulp watch
