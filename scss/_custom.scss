@@ -9,13 +9,90 @@ html {
 }
 
 body {
-  background-color: $gray;
+  background-color: $black;
+  font-family: $main-font;
+  color: $gray;
 
   @include tablet() {
-    background-color: $dark-gray;
+    background-color: unset;
+    background-image: url(../img/bg.jpg);
   }
 
   @include desktop() {
     background-color: $secondary;
+  }
+}
+
+a {
+  color: $gray;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.contenedor {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logotipo {
+  margin-top: .5rem;
+  max-width: 180px;
+
+  @include tablet {
+    margin-top: .8rem;
+    margin-left: 2%;
+  }
+}
+
+.formulario-login {
+  @include tablet {
+    background-color: rgba($color: $black, $alpha: .85);
+    max-width: 450px;
+    padding: 2rem 4rem;
+    margin: 1rem auto 4rem auto;
+  }
+}
+
+form {
+  legend {
+    color: $white;
+    font-size: 2rem;
+    margin: 2rem 0;
+    font-weight: bold;
+  }
+
+  .campo {
+    display: flex;
+    position: relative;
+    margin-bottom: .8rem;
+
+    label {
+      position: absolute;
+      top: 1.1rem;
+      left: 1rem;
+      font-size: .9rem;
+      transition: font-size .2s ease, top .2s ease;
+    }
+
+    input {
+      flex: 1;
+      padding: 1.3rem 1rem .7rem 1rem;
+      border: none;
+      background-color: $dark-gray;
+      border-radius: $radius;
+
+      &:focus {
+        background-color: $mid-dark-gray;
+        outline: none;
+
+        + label {
+          font-size: .6rem;
+          top: .5rem
+        }
+      }
+    }
   }
 }
