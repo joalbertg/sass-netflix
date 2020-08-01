@@ -16,12 +16,13 @@
         <form action="#">
             <legend>Inicia sesión</legend>
             <div class="campo">
-                <input type="text" id="usuario">
+                <input type="text" id="usuario" autocomplete="off">
                 <label for="usuario">Email o número de teléfono</label>
             </div>
             <div class="campo">
                 <input type="password" id="password">
                 <label for="password">Contreseña</label>
+                <span>mostrar</span>
             </div>
             <div class="submit">
                 <input type="submit" value="Iniciar sesión">
@@ -37,10 +38,10 @@
             </div><!-- acciones -->
         </form>
         <div class="contenido-inferior">
-            <a href="#">Inicir Sesión con Facebook</a>
-            <a href="#" class="nuevo-usuario">
-                ¿Primera vez en Netflix? <span>Suscríbete ya</span>
-            </a>
+            <a href="#">Iniciar sesión con facebook</a>
+            <p class="nuevo-usuario">
+                ¿Primera vez en Netflix? <a href="#">Suscríbete ya</a>
+            </p>
         </div>
     </main>
     <footer class="site-footer">
@@ -57,5 +58,6 @@
             </select>
         </div>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

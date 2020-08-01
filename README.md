@@ -1,24 +1,30 @@
 # Netflix with Gulp
 
-<!--#### Screenshots                                                                    -->
+#### Screenshots
+<p align="center">
+  <kbd>
+    <img src="screenshots/desktop.png" title="Desktop"  width="800px" height="auto">
+  </kbd>
+</p>
 
-<!--<p align="center">                                                                  -->
-<!--  <kbd>                                                                             -->
-<!--    <img src="screenshots/desktop.png" title="Desktop"  width="800px" height="auto">-->
-<!--  </kbd>                                                                            -->
-<!--</p>                                                                                -->
+<p align="center">
+  <kbd>
+    <img src="screenshots/tablet.png" title="Tablet"  width="600px" height="auto">  
+  </kbd>
+</p>
 
-<!--<p align="center">                                                                  -->
-<!--  <kbd>                                                                             -->
-<!--    <img src="screenshots/tablet.png" title="Tablet"  width="600px" height="auto">  -->
-<!--  </kbd>                                                                            -->
-<!--</p>                                                                                -->
+<p align="center">
+  <kbd>
+    <img src="screenshots/phone.png" title="Phone"  width="400px" height="auto">    
+  </kbd>
+</p>
 
-<!--<p align="center">                                                                  -->
-<!--  <kbd>                                                                             -->
-<!--    <img src="screenshots/phone.png" title="Phone"  width="400px" height="auto">    -->
-<!--  </kbd>                                                                            -->
-<!--</p>                                                                                -->
+<p align="center">
+  <kbd>
+    <img src="screenshots/phone-errors.png" title="phone errors"  width="400px" height="auto">    
+  </kbd>
+</p>
+
 
 #### Installs
 

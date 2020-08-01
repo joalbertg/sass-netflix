@@ -1,9 +1,11 @@
 /* Media Queries */
-/* @mixin phone {
-  @media (min-width: #{$phone}) {
-    @content
+/*
+  @mixin phone {
+    @media (min-width: #{$phone}) {
+      @content
+    }
   }
-} */
+*/
 
 @mixin tablet {
   @media (min-width: #{$tablet}) {
@@ -19,4 +21,19 @@
 
 @mixin box-sizing($box-model) {
   box-sizing: $box-model;
+}
+
+/* buttons */
+
+@mixin boton($bgColor) {
+  background-color: $bgColor;
+  color: $white;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: $radius;
+  font-size: 1rem;
+  padding: 1rem 0;
 }
